@@ -1,16 +1,16 @@
-// const element = document.createElement('h1');
-// element.innerText = 'Hello, Platzi Badges!';
+/**const element = document.createElement('h1')
+element.innerText = 'Hello, Platzi Badges!!';
 
-// const container = document.getElementById('app');
+const container = document.getElementById('app')
 
-// container.appendChild(element);
+container.appendChild(element)**/
 
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDom from 'react-dom'
 
-const element = <h1>Hello, Platzi Badges!</h1>;
+const element = <h1>Hello, Platzi Badges from React!!</h1>
 
-const container = document.getElementById('app');
+const container = document.getElementById('app')
 
-// ReactDOM.render(__qué__, __dónde__);
-ReactDOM.render(element, container);
+// render recibe 2 argumentos, qué y donde
+ReactDom.render(element, container)
